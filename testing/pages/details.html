@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>FIRST</title>
+
+    <!-- Google Fonts -->
+
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+    <!-- Slider Style -->
+    <link rel="stylesheet" href="css/woothemes-FlexSlider/flexslider.css" type="text/css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- js -->
+    <script src="js/modernizr.js"></script>
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/business-frontpage.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../css/woothemes-FlexSlider/jquery.flexslider.js"></script>
+    <script src="../js/script.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#myTab a").click(function(e) {
+            e.preventDefault();
+            $(this).tab('show');
+            $("#myTabs").tabs({
+                show: function(e, ui) {}
+            });
+        });
+        $('.volunteerNav').on('click', function(e) {
+            e.preventDefault();
+            $('#sectionA').removeClass('active fade in');
+            $('#myTab').find('.active').removeClass('active')
+            $('.navigationTab').addClass('active')
+            $('#sectionC').addClass('active fade in');
+        });
+    });
+    </script>
+    <!-- Slider Style -->
+    <link rel="stylesheet" href="../css/woothemes-FlexSlider/flexslider.css" type="text/css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="../js/modernizr.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+				<![endif]-->
+</head>
+
+<body>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" data-target="navbar-example">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home"><img id="brandImg" src="../../images/logoGimp.jpg"><span class="pageTitle">Queen City <em>FIRST</em></span> </a>
+            </div>
+            <!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav navbar-right" role="navigation">
+                    <li><a href="../index.html">Home</a>
+                    </li>
+                    <li class="active"><a href="pages/details.html">QCR Event Details</a>
+                    </li>
+                    <li><a href="pages/sponsors.html">Sponsors</a>
+                    </li>
+                    <li><a href="pages/volunteers.html">Volunteer</a>
+                    </li>
+                    <li><a href="pages/media.html">Media</a>
+                    </li>
+                    <li><a href="pages/kickoff.html">Local Kickoff</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- collapse navbar-collapse -->
+        </div>
+        <!-- container -->
+    </nav>
+
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top navShadow" role="navigation" >
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+    <!-- <div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+						</div> -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li>
+									<a  href="../index.html">Home</a>
+								</li>
+								<li>
+									<a id="activeNav" href="details.html">QCR Event Details</a>
+								</li>
+								<li>
+									<a href="sponsors.html">Sponsors</a>
+								</li>
+								<li>
+									<a href="volunteers.html">Volunteer</a>
+								</li>
+								<li>
+									<a  href="media.html">Media</a>
+								</li>
+								<li>
+									<a href="kickoff.html">Local Kickoff</a>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+    <!-- </div> -->
+    <!-- /.container -->
+    <!-- </nav> -->
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <!-- Page Content -->
+    <div class="container detailsContent">
+        <div class="container">
+            <ul class="nav nav-pills" id="myTab">
+                <li class="active"><a href="#sectionA"><i class="fa fa-car"></i>Directions</a>
+                </li>
+                <li><a href="#sectionB"><i class="fa fa-calendar"></i>Agenda</a>
+                </li>
+                <li class="LunchTab"><a href="#sectionC"><i class="fa fa-cutlery"></i>Lunch Order Form</a>
+                </li>
+                <li class="teamList"><a href="#sectionD"><i class="fa fa-list-alt"></i>Team List</a>
+                </li>
+            </ul>
+            <div class="tab-content" style="border-top: solid 1px white; padding: 10px;">
+                <div id="sectionA" class="tab-pane fade in active">
+                    <h3 class="heading text-primary">CINTAS Center</h3>
+                    <div class="xavier" style="float:left; margin-right:15px">
+                        <iframe class="xavierMap" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1624+Herald+Avenue,+Cincinnati,+Ohio+45207&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=1624+Herald+Ave,+Cincinnati,+Ohio+45212&amp;t=m&amp;z=14&amp;ll=39.148876,-84.472575&amp;output=embed"></iframe>
+                    </div>
+                    <h3 class="heading text-primary">Via I-75</h3>
+                    <p>Take Interstate 75 North/South to State Route 562 (Exit 7) going east. Take U.S. Route 42, Reading Road (Exit 2). Turn right off exit onto U.S. Route 42, Reading Road south. Turn left at the third light onto Victory Parkway. Turn left at the third light onto Dana Avenue. Take a quick left at the stone-wall entrance onto University Drive.</p>
+                    <h3 class="heading text-primary">Via I-71 Northbound</h3>
+                    <p>Take Interstate 71 North to Dana Avenue/Montgomery Road (Exit 5). Turn left onto Duck Creek Road. At the second stop light, turn left onto Dana Avenue. After the fourth stop light at Ledgewood Drive, turn right at the second street, University Drive, which is recognizable by a stone-wall entrance. This drive is before the fifth stop light at Victory Parkway.</p>
+                    <h3 class="heading text-primary">Via I-71 Southbound</h3>
+                    <p>Take Interstate 71 south to Dana Avenue (Exit 5). Turn right off the exit onto Dana Avenue west. After the third stop light at Ledgewood Drive turn right at the second street, University Drive, which is recognizable by a stone-wall entrance. This drive is before the fourth stop light at Victory Parkway.</p>
+                </div>
+                <div id="sectionB" class="heading tab-pane fade">
+                    <h3>Schedule</h3>
+                    <div class="bs-example">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="text-primary">6:00 pm -8:00 pm:</span> 5 Team Reps to Load-In</td>
+                                    <td><span class="text-primary">7:45 am:</span> 5 Team Reps to Load-In</td>
+                                    <td><span class="text-primary">8:00 am: </span>Pits and Machine Shop OPEN</td>
+                                    <td><span class="text-primary">8:00 am: </span>Pits and Machine Shop OPEN</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><span class="text-primary">8:30 am:</span> Pits and Machine Shop OPEN</td>
+                                    <td><span class="text-primary">8:30 am-9:00 am:</span> Opening Ceremonies</td>
+                                    <td><span class="text-primary">8:30 am-9:00 am:</span> Opening Ceremonies</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><span class="text-primary">8:30 am -12:00 Noon:</span> Registration and Robot Inspection Start</td>
+                                    <td><span class="text-primary">9:00 am - 12 Noon:</span> Qualification Matches</td>
+                                    <td><span class="text-primary">9:00 am -12:15 pm:</span> Qualifications Matches</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><span class="text-primary">10:00 am 12 Noon:</span> Practice Rounds</td>
+                                    <td><span class="text-primary">12 Noon -1:00 pm:</span> LUNCH</td>
+                                    <td><span class="text-primary">12:15 pm - 12:30 pm</span> Alliance Selections</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><span class="text-primary">12:00 Noon - 1:00 pm</span> LUNCH</td>
+                                    <td><span class="text-primary">1:00 pm - 5:45 pm:</span> Qualificaiton Matches</td>
+                                    <td><span class="text-primary">12:30 pm - 1:30 pm</span> LUNCH</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><span class="text-primary">1:00 pm - 4:30 pm:</span> Practice Rounds</td>
+                                    <td><span class="text-primary">5:45 pm - 6:30 pm:</span> Awards Ceremony</td>
+                                    <td><span class="text-primary">1:30 - 4:30</span> Final Rounds</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><span class="text-primary">8:00 pm:</span> Pits and Machine Shop CLOSE</td>
+                                    <td><span class="text-primary">7:00 pm:</span> Pits and Machine Shop CLOSE</td>
+                                    <td><span class="text-primary">4:30 pm - 5:30 pm:</span> Awards Ceremony</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><span class="text-primary">6:00pm:</span> Pits close | Robots bagged</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="sectionC" class="heading volunteerTab tab-pane fade">
+                    <a class="volunteerButton heading btn btn-success btn-lg" href="../images/Preorder Team Meals Queen City 2015.pdf" style="height: 50px; width: 150px; float: left; margin: 20px;font-size: 1em;padding: 15px 5px;">Download Lunch Form
+			</a>
+                </div>
+                <div id="sectionD" class="heading volunteerTab tab-pane fade">
+                    <div class="teamlistcontent">
+                        <iframe frameborder="0" height="700px" id="teamlist" src="http://frclinks.frclinks.com/event/ohci" width="700px"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- jQuery -->
+
+</body>
+
+</html>

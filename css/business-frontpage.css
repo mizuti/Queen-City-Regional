@@ -1,0 +1,107 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #f1f1f1;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+ul  {
+	font-family: 'Droid Sans', sans-serif;
+
+}
+.mainContent>h2, .mainContent>h4 {
+font-family: 'Exo', sans-serif;
+}
+
+#myCarousel{
+/*
+	height: 300px !important;
+	width: 300px !important;
+	overflow: hidden;
+	    width: 80%; /* for example */*/
+
+}
+.pageTitle {
+	font-family: 'Exo', sans-serif;
+	font-size: 1.5em;
+}
+
+
+div.c-wrapper{
+
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+top:0;
+width: 100%; /* use this, or not */
+margin: 0 auto;
+}
+
+
+#map-canvas{
+	width: 600px;
+	height: 200px;
+}
+
+.business-header {
+    height: 400px;
+
+
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+header {
+	height: 400px;
+background: url(../images/sitepics/QueenCityRiverFront.jpg) center center no-repeat;
+    /*text-shadow: 0 0 0px #000;*/
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+}
+.nav {
+	font-family: 'Exo', sans-serif;
+}
+
+#detailsBanner{
+	height: 25%;
+	background: url('../images/sitepics/venue.jpg') center;
+
+}
+.heading {
+	font-family: 'Exo', sans-serif;
+
+}
+#directionTab{
+font-style: 18px;
+}
+#detailTabs{
+margin-top: 15px;
+}
+.volunteerContent p strong {
+	font-size: 22px;
+}
+#frc-pic{
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 20px;
+    font-size: 12px;
+}
+/*  Details Styles */
+.volunteerButton{
+	float: right;
+	margin: auto 20px;
+}
+
